@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #d8ebcd;
+    --main-color-alpha: rgba(22,125,127,0.6);
+    --second-color: #98D7C2;
+    --teal-color:#29A0B1;
+    --mint-color:#DDFFE7;
+}
+.bg{
+    /* background-color: var(--main-color); */
+    height: 100%;
+    /* min-height: 500px; */
+    /* position: absolute; */
+    top:0;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    /* min-height: 1000px; */
+    
+}
+.nav-item{
+    /* height: 50px; */
+    width: 200px;
+    height: 50px;
+    
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 600;
+    color: black !important;
+    /* line-height: 50px; */
+    
+}
+
+textarea{
+    border: none;
+    width: 100%;
+}
+.hi,.nav-item:hover a{
+    /* height: 100px; */
+    color: white !important;
+    /* font-size: 20px; */
+    /* line-height: 50px; */
+    transition: 0.5s;
+}
+.ha a{
+    /* text-decoration: none; */
+    color: white;
+}
+a{
+    color: black;
+}
+.them, .danhsach{
+    line-height:50px;
+    font-size: 20px;
+}
+.ha,
+.nav-item:hover{
+    height: 50px;
+    background-color: #29A0B1;
+    transition: 0.75s;
+
+}
+.tab-content{
+    font-weight: 500;
+    font-size: 16px;
+}
